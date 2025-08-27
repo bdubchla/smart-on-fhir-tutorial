@@ -15,14 +15,13 @@
                     type: 'Observation',
                     query: {
                       code: {
-                        $or: ['http://loinc.org|8302-2', 
-                              'http://loinc.org|8462-4',
-                              'http://loinc.org|8480-6', 
-                              'http://loinc.org|2085-9',
-                              'http://loinc.org|2089-1', 
-                              'http://loinc.org|55284-4',
-                              'http://loinc.org|85453-9',
-                              'http://loinc.org|8310-5'
+                        $or: ['http://loinc.org|8302-2', //height
+                              //'http://loinc.org|8462-4',
+                              //'http://loinc.org|8480-6', 
+                              'http://loinc.org|2085-9', //hdl
+                              'http://loinc.org|2089-1', //ldl
+                              'http://loinc.org|8310-5', 
+                              'http://loinc.org|85453-9' /bp
                              ]
                       }
                     }
