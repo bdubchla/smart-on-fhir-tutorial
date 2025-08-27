@@ -21,7 +21,7 @@
                               'http://loinc.org|2085-9', //hdl
                               'http://loinc.org|2089-1', //ldl
                               'http://loinc.org|8310-5', 
-                              'http://loinc.org|85453-9' /bp
+                              'http://loinc.org|85453-9' //bp
                              ]
                       }
                     }
